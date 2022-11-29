@@ -1,4 +1,4 @@
-const Consulta = require('../models/consultas');
+const Consulta = require('../models/consulta');
 const conDB = require('../DAO/bcdDAO');
 
 

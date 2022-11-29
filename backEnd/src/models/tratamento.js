@@ -7,7 +7,7 @@ const toReadAll = () => {
 }
 
 const toReadId = (model) => {
-    return `SELECT * FROM vw_info  WHERE id_profissional =  ${model.id_profissional}`;
+    return `SELECT * FROM vw_info_tratamentos  WHERE id_profissional =  ${model.id_profissional}`;
 }
 
 

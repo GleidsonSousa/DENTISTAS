@@ -1,4 +1,4 @@
-const Profissional = require('../models/profissionais');
+const Profissional = require('../models/profissional');
 const conDB = require('../DAO/bcdDAO');
 
 

@@ -26,7 +26,7 @@ create table tratamentos(
  );
 
 
-create view vw_info as
+create view vw_info_tratamentos as
 select p.id_profissional, p.nome, p.especialidade, c.id_consulta, c.paciente, c.data, c.horario, t.id_tratamento, t.tratamento, t.valor from profissionais p
 inner join consultas c on c.profissional = p.id_profissional
 inner join tratamentos t on t.consulta = c.id_consulta;
@@ -55,6 +55,6 @@ IGNORE 1 ROWS;
 select * from profissionais;
 select * from consultas;
 select * from tratamentos;
-select * from vw_info;
+select * from vw_info_tratamentos;
 
 
